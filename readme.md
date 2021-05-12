@@ -20,6 +20,7 @@ docker run -it debian
 (也许需要sudo docker run -it debian)  
 ##debootstrap版本：  
 debootstrap buster debian  
+chroot debian mount -t proc proc /proc  
 (也许需要sudo debootstrap buster debian)  
 #二：更新source-src  
 docker由于看不见里面的文件，为了方便其见，建议挂载到系统目录下，例如：  
