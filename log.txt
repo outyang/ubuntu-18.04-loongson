@@ -1,3 +1,8 @@
 glibc在docker-debian10编译失败
 
 打算在debootstrap下编译
+debootstrap下glibc再次失败
+
+打算在docker里面编译gcc-7，在用ubuntu 版本的gcc-7去编译glibc
+
+打算试一试交叉编译
