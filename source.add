@@ -1,0 +1,11 @@
+deb-src [trusted=yes] http://mirrors.cloud.tencent.com/ubuntu/ bionic main restricted
+deb-src [trusted=yes] http://mirrors.cloud.tencent.com/ubuntu/ bionic-updates main restricted
+deb-src [trusted=yes] http://mirrors.cloud.tencent.com/ubuntu/ bionic universe
+deb-src [trusted=yes] http://mirrors.cloud.tencent.com/ubuntu/ bionic-updates universe
+deb-src [trusted=yes] http://mirrors.cloud.tencent.com/ubuntu/ bionic multiverse
+deb-src [trusted=yes] http://mirrors.cloud.tencent.com/ubuntu/ bionic-updates multiverse
+deb-src [trusted=yes] http://mirrors.cloud.tencent.com/ubuntu/ bionic-backports main restricted universe multiverse
+deb-src [trusted=yes] http://mirrors.cloud.tencent.com/ubuntu/ bionic partner
+deb-src [trusted=yes] http://security.ubuntu.com/ubuntu/ bionic-security main restricted
+deb-src [trusted=yes] http://security.ubuntu.com/ubuntu/ bionic-security universe
+deb-src [trusted=yes] http://security.ubuntu.com/ubuntu/ bionic-security multiverse
