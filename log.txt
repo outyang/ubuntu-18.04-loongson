@@ -1,0 +1,3 @@
+glibc在docker-debian10编译失败
+
+打算在debootstrap下编译
