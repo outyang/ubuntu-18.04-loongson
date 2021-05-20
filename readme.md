@@ -1,19 +1,9 @@
-this is only some python code to find deb file now.
-%%%%%%%%%%%%%%%  
-pkg.py  
-find deb file in pwd dir  
-using: python3 pkg.py pkg1 pkg2 ... pkgn  
-采用精确匹配  
-%%%%%%%%%%%%%%%%  
-pkgex.py  
-find deb file in pwd dir  
-using: python3 pkg.py pkg1 pkg2 ... pkgn  
-采用模糊匹配，建议首先采用第一种  
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
 首先你需要有个龙芯3a/3b的机器，系统建议loongnix服务器版本（支持docker的其他系统也行，
 如果你的系统不支持docker，那么支持debootstrap也行
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%  
+#关于帮助
+python脚本在 py_help.md 里面  
+所有帮助都在help文件夹下面  
 #一：安装虚拟机（debian10:buster),建议不要固定大小，并定期备份你的虚拟机  
 ##docker版本：  
 docker run -it debian  
@@ -22,6 +12,8 @@ docker run -it debian
 debootstrap buster debian  
 chroot debian mount -t proc proc /proc  
 (也许需要sudo debootstrap buster debian)  
+##docker-ubuntu-16.04版本：
+docker pull loongnix/ubuntu-1604:latest  
 #二：更新source-src  
 docker由于看不见里面的文件，为了方便其见，建议挂载到系统目录下，例如：  
 docker run -it -v /home/yang/123:/home/yang/123 debian  

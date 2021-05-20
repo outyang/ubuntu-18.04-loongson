@@ -1,8 +1,10 @@
 #!/bin/bash
-cat "run.list"|
+cat "run3000.list"|
 while read line
 do
-	apt-get build-dep $line -y --force-yes
-	apt-get -b source $line -y
-	echo $line  >> done.txt
+	mkdir $line && cd $line \
+	&& apt-get build-dep $line -y --force-yes \
+	&& apt-get -b source $line -y \
+	&& cd .. \
+	&& echo $line  >> done.txt
 done
