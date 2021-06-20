@@ -2,6 +2,14 @@
 首先你需要有个龙芯3a/3b的机器，系统建议loongnix服务器版本（支持docker的其他系统也行，
 如果你的系统不支持docker，那么支持debootstrap也行
 #关于帮助
+#ubuntu 18.04 for loongson下载链接
+链接：https://share.weiyun.com/g8aEGwCm  
+首先你需要一台可以运行docker的龙芯电脑  
+下载我们提供的镜像，并解压缩  
+docker导入解压后的镜像  
+docker run -it XXXX /bin/bash  
+apt update  
+apt install hostname   
 python脚本在 py_help.md 里面  
 所有帮助都在help文件夹下面  
 #一：安装虚拟机（debian10:buster),建议不要固定大小，并定期备份你的虚拟机  
